@@ -4,7 +4,7 @@ def greet(name):
 
 from datetime import datetime
 
-def greeting():
+def greet():
     hour = datetime.now().hour
     if hour <= 11:
         message = 'Good morning'
